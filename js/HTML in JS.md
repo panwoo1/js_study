@@ -1,3 +1,5 @@
+# HTML in JS
+
 title = document.getElementById() => ID
 title.innerText
 
