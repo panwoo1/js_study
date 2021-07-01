@@ -1,3 +1,14 @@
 body {
   background: beige;
 }
+h1 {
+  color: cornflowerblue;
+}
+
+.clicked {
+  color: tomato;
+}
+
+.sexy-font {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

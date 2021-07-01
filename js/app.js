@@ -1,7 +1,8 @@
-const title = document.querySelector('div.hello h1')
+const h1 = document.querySelector('div.hello h1')
 
 function handleTitleClick() {
-  title.style.color = 'blue'
+  const clickedClass = 'clicked'
+  h1.classList.toggle(clickedClass)
 }
 
-title.addEventListener('click', handleTitleClick)
+h1.addEventListener('click', handleTitleClick)
